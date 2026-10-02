@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+/*
+  Design tokens (colors + fonts) taken from the design-reference screenshots.
+  Tailwind turns each of these into utility classes, e.g.
+    --color-lime  → bg-lime, text-lime, border-lime
+    --font-heading → font-heading
+*/
+@theme {
+  --color-lime: #c6f135; /* main accent (buttons, active step, highlights) */
+  --color-lime-hover: #b8e324;
+  --color-lime-soft: #f4fadd; /* background of selected cards */
+  --color-olive: #4f6b00; /* text links like "Edit", "Sign Up" */
+  --color-ink: #111827; /* dark charcoal headings */
+  --color-body: #6b7280; /* gray body text */
+  --color-field: #eef1fd; /* input background (light lavender) */
+  --color-line: #e5e7eb; /* borders */
+  --color-page: #f9f9fe; /* header / footer strip */
+
+  --font-heading: 'Plus Jakarta Sans', 'Noto Sans Bengali', system-ui, sans-serif;
+  --font-sans: 'Inter', 'Noto Sans Bengali', system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(17 24 39 / 0.04), 0 4px 16px rgb(17 24 39 / 0.04);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white font-sans text-ink antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-heading;
+  letter-spacing: -0.02em;
+}
+
+/* Shared style for text inputs, selects and textareas. */
+@utility field {
+  @apply w-full rounded-xl bg-field px-4 py-2.5 text-[15px] text-ink placeholder:text-body/80 outline-none transition focus:ring-2 focus:ring-lime;
+}
