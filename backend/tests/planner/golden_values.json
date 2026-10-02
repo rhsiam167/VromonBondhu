@@ -1,0 +1,2534 @@
+{
+  "note": "Produced by running the frontend JavaScript. Regenerate with: node backend/scripts/make_golden_values.mjs",
+  "routes": [
+    {
+      "from": "dhaka",
+      "to": "coxs-bazar",
+      "travelers": 2,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 412,
+          "durationMinutes": 540,
+          "farePerPerson": 700,
+          "groupFare": 1400,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 412,
+          "durationMinutes": 600,
+          "farePerPerson": 1000,
+          "groupFare": 2000,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 412,
+          "durationMinutes": 495,
+          "farePerPerson": 3840,
+          "groupFare": 7680,
+          "vehicles": 1
+        },
+        {
+          "mode": "flight",
+          "label": "Flight",
+          "distanceKm": 305,
+          "durationMinutes": 185,
+          "farePerPerson": 5500,
+          "groupFare": 11000,
+          "vehicles": null
+        }
+      ]
+    },
+    {
+      "from": "dhaka",
+      "to": "sundarbans",
+      "travelers": 3,
+      "options": [
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 220,
+          "durationMinutes": 330,
+          "farePerPerson": 650,
+          "groupFare": 1950,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 220,
+          "durationMinutes": 265,
+          "farePerPerson": 1597,
+          "groupFare": 4790,
+          "vehicles": 1
+        }
+      ]
+    },
+    {
+      "from": "dhaka",
+      "to": "sylhet",
+      "travelers": 1,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 265,
+          "durationMinutes": 420,
+          "farePerPerson": 400,
+          "groupFare": 400,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 265,
+          "durationMinutes": 360,
+          "farePerPerson": 750,
+          "groupFare": 750,
+          "vehicles": null
+        },
+        {
+          "mode": "flight",
+          "label": "Flight",
+          "distanceKm": 196,
+          "durationMinutes": 165,
+          "farePerPerson": 4500,
+          "groupFare": 4500,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 265,
+          "durationMinutes": 320,
+          "farePerPerson": 5470,
+          "groupFare": 5470,
+          "vehicles": 1
+        }
+      ]
+    },
+    {
+      "from": "chattogram",
+      "to": "sajek-valley",
+      "travelers": 5,
+      "options": [
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 169,
+          "durationMinutes": 255,
+          "farePerPerson": 400,
+          "groupFare": 2000,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 169,
+          "durationMinutes": 205,
+          "farePerPerson": 1616,
+          "groupFare": 8080,
+          "vehicles": 2
+        }
+      ]
+    },
+    {
+      "from": "rajshahi",
+      "to": "barishal",
+      "travelers": 4,
+      "options": [
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 348,
+          "durationMinutes": 520,
+          "farePerPerson": 730,
+          "groupFare": 2920,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 348,
+          "durationMinutes": 420,
+          "farePerPerson": 1680,
+          "groupFare": 6720,
+          "vehicles": 1
+        },
+        {
+          "mode": "flight",
+          "label": "Flight",
+          "distanceKm": 258,
+          "durationMinutes": 160,
+          "farePerPerson": 4550,
+          "groupFare": 18200,
+          "vehicles": null
+        }
+      ]
+    },
+    {
+      "from": "khulna",
+      "to": "rangpur",
+      "travelers": 2,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 437,
+          "durationMinutes": 580,
+          "farePerPerson": 660,
+          "groupFare": 1320,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 437,
+          "durationMinutes": 655,
+          "farePerPerson": 890,
+          "groupFare": 1780,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 437,
+          "durationMinutes": 525,
+          "farePerPerson": 4025,
+          "groupFare": 8050,
+          "vehicles": 1
+        }
+      ]
+    },
+    {
+      "from": "sylhet",
+      "to": "coxs-bazar",
+      "travelers": 6,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 520,
+          "durationMinutes": 695,
+          "farePerPerson": 780,
+          "groupFare": 4680,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 520,
+          "durationMinutes": 780,
+          "farePerPerson": 1040,
+          "groupFare": 6240,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 520,
+          "durationMinutes": 625,
+          "farePerPerson": 3102,
+          "groupFare": 18610,
+          "vehicles": 2
+        },
+        {
+          "mode": "flight",
+          "label": "Flight",
+          "distanceKm": 385,
+          "durationMinutes": 180,
+          "farePerPerson": 5310,
+          "groupFare": 31860,
+          "vehicles": null
+        }
+      ]
+    },
+    {
+      "from": "mymensingh",
+      "to": "cumilla",
+      "travelers": 3,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 219,
+          "durationMinutes": 295,
+          "farePerPerson": 360,
+          "groupFare": 1080,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 219,
+          "durationMinutes": 330,
+          "farePerPerson": 490,
+          "groupFare": 1470,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 219,
+          "durationMinutes": 265,
+          "farePerPerson": 1597,
+          "groupFare": 4790,
+          "vehicles": 1
+        }
+      ]
+    },
+    {
+      "from": "dhaka",
+      "to": "sajek-valley",
+      "travelers": 4,
+      "options": [
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 267,
+          "durationMinutes": 320,
+          "farePerPerson": 1378,
+          "groupFare": 5510,
+          "vehicles": 1
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 267,
+          "durationMinutes": 660,
+          "farePerPerson": 1500,
+          "groupFare": 6000,
+          "vehicles": null
+        }
+      ]
+    },
+    {
+      "from": "cumilla",
+      "to": "khulna",
+      "travelers": 7,
+      "options": [
+        {
+          "mode": "train",
+          "label": "Train",
+          "distanceKm": 245,
+          "durationMinutes": 325,
+          "farePerPerson": 390,
+          "groupFare": 2730,
+          "vehicles": null
+        },
+        {
+          "mode": "bus",
+          "label": "Bus",
+          "distanceKm": 245,
+          "durationMinutes": 365,
+          "farePerPerson": 540,
+          "groupFare": 3780,
+          "vehicles": null
+        },
+        {
+          "mode": "car",
+          "label": "Car",
+          "distanceKm": 245,
+          "durationMinutes": 295,
+          "farePerPerson": 1477,
+          "groupFare": 10340,
+          "vehicles": 2
+        }
+      ]
+    }
+  ],
+  "legs": [
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.434,
+        "lng": 91.976
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 0.8,
+        "durationMinutes": 5,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.434,
+        "lng": 91.976
+      },
+      "to": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 3.6,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.434,
+        "lng": 91.976
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "walk",
+        "label": "Walking",
+        "distanceKm": 0.8,
+        "durationMinutes": 10,
+        "fare": 0
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.434,
+        "lng": 91.976
+      },
+      "to": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 3.6,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 2.9,
+        "durationMinutes": 10,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "to": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 1.5,
+        "durationMinutes": 5,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 2.9,
+        "durationMinutes": 10,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.411,
+        "lng": 91.983
+      },
+      "to": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 1.5,
+        "durationMinutes": 5,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 1.5,
+        "durationMinutes": 5,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "to": {
+        "lat": 21.358,
+        "lng": 92.024
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 11.3,
+        "durationMinutes": 25,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 1.5,
+        "durationMinutes": 5,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.42,
+        "lng": 91.978
+      },
+      "to": {
+        "lat": 21.358,
+        "lng": 92.024
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 11.3,
+        "durationMinutes": 25,
+        "fare": 500
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.358,
+        "lng": 92.024
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 12.4,
+        "durationMinutes": 30,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "from": {
+        "lat": 21.43,
+        "lng": 91.98
+      },
+      "to": {
+        "lat": 21.358,
+        "lng": 92.024
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 12.4,
+        "durationMinutes": 30,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.719,
+        "lng": 90.3882
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 4.9,
+        "durationMinutes": 10,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.719,
+        "lng": 90.3882
+      },
+      "to": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "rickshaw",
+        "label": "Rickshaw",
+        "distanceKm": 2.9,
+        "durationMinutes": 15,
+        "fare": 80
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.719,
+        "lng": 90.3882
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 4.9,
+        "durationMinutes": 10,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.719,
+        "lng": 90.3882
+      },
+      "to": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "rickshaw",
+        "label": "Rickshaw",
+        "distanceKm": 2.9,
+        "durationMinutes": 15,
+        "fare": 80
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 6.6,
+        "durationMinutes": 15,
+        "fare": 500
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "to": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "rickshaw",
+        "label": "Rickshaw",
+        "distanceKm": 1.2,
+        "durationMinutes": 5,
+        "fare": 160
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 6.6,
+        "durationMinutes": 15,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.7086,
+        "lng": 90.4061
+      },
+      "to": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "walk",
+        "label": "Walking",
+        "distanceKm": 1.2,
+        "durationMinutes": 15,
+        "fare": 0
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 5.5,
+        "durationMinutes": 15,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "to": {
+        "lat": 23.7058,
+        "lng": 90.4097
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "rickshaw",
+        "label": "Rickshaw",
+        "distanceKm": 1.9,
+        "durationMinutes": 10,
+        "fare": 80
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 5.5,
+        "durationMinutes": 15,
+        "fare": 500
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.7152,
+        "lng": 90.4007
+      },
+      "to": {
+        "lat": 23.7058,
+        "lng": 90.4097
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "rickshaw",
+        "label": "Rickshaw",
+        "distanceKm": 1.9,
+        "durationMinutes": 10,
+        "fare": 240
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7058,
+        "lng": 90.4097
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 7.1,
+        "durationMinutes": 15,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "dhaka",
+      "from": {
+        "lat": 23.751,
+        "lng": 90.3935
+      },
+      "to": {
+        "lat": 23.7058,
+        "lng": 90.4097
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 7.1,
+        "durationMinutes": 15,
+        "fare": 250
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.398,
+        "lng": 92.296
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 2.4,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.398,
+        "lng": 92.296
+      },
+      "to": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 2,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.398,
+        "lng": 92.296
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 2.4,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.398,
+        "lng": 92.296
+      },
+      "to": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 2,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 0.5,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "to": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 0.5,
+        "durationMinutes": 5,
+        "fare": 1200
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "walk",
+        "label": "Walking",
+        "distanceKm": 0.5,
+        "durationMinutes": 5,
+        "fare": 0
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.385,
+        "lng": 92.294
+      },
+      "to": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "walk",
+        "label": "Walking",
+        "distanceKm": 0.5,
+        "durationMinutes": 5,
+        "fare": 0
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": null
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.13,
+        "lng": 91.99
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 56.4,
+        "durationMinutes": 155,
+        "fare": 3950
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": null
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.13,
+        "lng": 91.99
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 56.4,
+        "durationMinutes": 155,
+        "fare": 3950
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.13,
+        "lng": 91.99
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 56.4,
+        "durationMinutes": 155,
+        "fare": 3950
+      }
+    },
+    {
+      "destinationId": "sajek-valley",
+      "from": {
+        "lat": 23.382,
+        "lng": 92.2938
+      },
+      "to": {
+        "lat": 23.13,
+        "lng": 91.99
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "jeep",
+        "label": "Jeep (chander gari)",
+        "distanceKm": 56.4,
+        "durationMinutes": 155,
+        "fare": 3950
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 22.428,
+        "lng": 89.59
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 8.4,
+        "durationMinutes": 35,
+        "fare": 800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.428,
+        "lng": 89.59
+      },
+      "to": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 89.1,
+        "durationMinutes": 355,
+        "fare": 5340
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 22.428,
+        "lng": 89.59
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 8.4,
+        "durationMinutes": 35,
+        "fare": 800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.428,
+        "lng": 89.59
+      },
+      "to": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 89.1,
+        "durationMinutes": 355,
+        "fare": 5340
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 96.7,
+        "durationMinutes": 385,
+        "fare": 5800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "to": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 9.9,
+        "durationMinutes": 40,
+        "fare": 800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 96.7,
+        "durationMinutes": 385,
+        "fare": 5800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 21.86,
+        "lng": 89.775
+      },
+      "to": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 9.9,
+        "durationMinutes": 40,
+        "fare": 800
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 98.2,
+        "durationMinutes": 395,
+        "fare": 5890
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "to": {
+        "lat": 22.295,
+        "lng": 89.62
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 71.1,
+        "durationMinutes": 285,
+        "fare": 4260
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 98.2,
+        "durationMinutes": 395,
+        "fare": 5890
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 21.87,
+        "lng": 89.845
+      },
+      "to": {
+        "lat": 22.295,
+        "lng": 89.62
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 71.1,
+        "durationMinutes": 285,
+        "fare": 4260
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 22.295,
+        "lng": 89.62
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 28.4,
+        "durationMinutes": 115,
+        "fare": 1700
+      }
+    },
+    {
+      "destinationId": "sundarbans",
+      "from": {
+        "lat": 22.4833,
+        "lng": 89.6
+      },
+      "to": {
+        "lat": 22.295,
+        "lng": 89.62
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "boat",
+        "label": "Boat / launch",
+        "distanceKm": 28.4,
+        "durationMinutes": 115,
+        "fare": 1700
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.6745,
+        "lng": 89.7417
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 37.9,
+        "durationMinutes": 90,
+        "fare": 760
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.6745,
+        "lng": 89.7417
+      },
+      "to": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 4,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.6745,
+        "lng": 89.7417
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 37.9,
+        "durationMinutes": 90,
+        "fare": 760
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.6745,
+        "lng": 89.7417
+      },
+      "to": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 4,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 41.8,
+        "durationMinutes": 100,
+        "fare": 1670
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "to": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 30.5,
+        "durationMinutes": 75,
+        "fare": 1220
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 41.8,
+        "durationMinutes": 100,
+        "fare": 840
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.662,
+        "lng": 89.767
+      },
+      "to": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 30.5,
+        "durationMinutes": 75,
+        "fare": 610
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 11.4,
+        "durationMinutes": 25,
+        "fare": 230
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "to": {
+        "lat": 22.826,
+        "lng": 89.554
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 8,
+        "durationMinutes": 30,
+        "fare": 100
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 11.4,
+        "durationMinutes": 25,
+        "fare": 460
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.787,
+        "lng": 89.593
+      },
+      "to": {
+        "lat": 22.826,
+        "lng": 89.554
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 8,
+        "durationMinutes": 30,
+        "fare": 100
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.826,
+        "lng": 89.554
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 3.5,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "khulna",
+      "from": {
+        "lat": 22.8456,
+        "lng": 89.5403
+      },
+      "to": {
+        "lat": 22.826,
+        "lng": 89.554
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "battery-van",
+        "label": "Battery auto / easy-bike",
+        "distanceKm": 3.5,
+        "durationMinutes": 15,
+        "fare": 60
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.0138,
+        "lng": 91.9311
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 19.8,
+        "durationMinutes": 45,
+        "fare": 400
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.0138,
+        "lng": 91.9311
+      },
+      "to": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "travelers": 2,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 25.3,
+        "durationMinutes": 60,
+        "fare": 510
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.0138,
+        "lng": 91.9311
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 19.8,
+        "durationMinutes": 45,
+        "fare": 400
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.0138,
+        "lng": 91.9311
+      },
+      "to": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "travelers": 1,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 25.3,
+        "durationMinutes": 60,
+        "fare": 510
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 45,
+        "durationMinutes": 110,
+        "fare": 1800
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "to": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "travelers": 4,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 18.2,
+        "durationMinutes": 45,
+        "fare": 730
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 45,
+        "durationMinutes": 110,
+        "fare": 900
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.163,
+        "lng": 92.017
+      },
+      "to": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "travelers": 3,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 18.2,
+        "durationMinutes": 45,
+        "fare": 360
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 41,
+        "durationMinutes": 100,
+        "fare": 820
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "to": {
+        "lat": 25.107,
+        "lng": 92.155
+      },
+      "travelers": 1,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 38.1,
+        "durationMinutes": 90,
+        "fare": 760
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 41,
+        "durationMinutes": 100,
+        "fare": 1640
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 25.168,
+        "lng": 91.883
+      },
+      "to": {
+        "lat": 25.107,
+        "lng": 92.155
+      },
+      "travelers": 5,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 38.1,
+        "durationMinutes": 90,
+        "fare": 1520
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.107,
+        "lng": 92.155
+      },
+      "travelers": 3,
+      "useLocal": true,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 50.3,
+        "durationMinutes": 120,
+        "fare": 1010
+      }
+    },
+    {
+      "destinationId": "sylhet",
+      "from": {
+        "lat": 24.8949,
+        "lng": 91.8687
+      },
+      "to": {
+        "lat": 25.107,
+        "lng": 92.155
+      },
+      "travelers": 2,
+      "useLocal": false,
+      "leg": {
+        "mode": "cng",
+        "label": "CNG auto-rickshaw",
+        "distanceKm": 50.3,
+        "durationMinutes": 120,
+        "fare": 1010
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "destinationId": "dhaka",
+      "tier": "budget",
+      "id": "hotel-grand-prince-dhaka",
+      "pricePerNight": 2500
+    },
+    {
+      "destinationId": "dhaka",
+      "tier": "mid-range",
+      "id": "hotel-71-dhaka",
+      "pricePerNight": 6000
+    },
+    {
+      "destinationId": "dhaka",
+      "tier": "premium",
+      "id": "pan-pacific-sonargaon",
+      "pricePerNight": 16000
+    },
+    {
+      "destinationId": "chattogram",
+      "tier": "budget",
+      "id": "hotel-golden-inn-ctg",
+      "pricePerNight": 2200
+    },
+    {
+      "destinationId": "chattogram",
+      "tier": "mid-range",
+      "id": "hotel-agrabad",
+      "pricePerNight": 7000
+    },
+    {
+      "destinationId": "chattogram",
+      "tier": "premium",
+      "id": "radisson-blu-ctg",
+      "pricePerNight": 14000
+    },
+    {
+      "destinationId": "sylhet",
+      "tier": "budget",
+      "id": "hotel-holy-gate",
+      "pricePerNight": 2000
+    },
+    {
+      "destinationId": "sylhet",
+      "tier": "mid-range",
+      "id": "noorjahan-grand",
+      "pricePerNight": 5500
+    },
+    {
+      "destinationId": "sylhet",
+      "tier": "premium",
+      "id": "rose-view-sylhet",
+      "pricePerNight": 11000
+    },
+    {
+      "destinationId": "khulna",
+      "tier": "budget",
+      "id": "hotel-park-khulna",
+      "pricePerNight": 1800
+    },
+    {
+      "destinationId": "khulna",
+      "tier": "mid-range",
+      "id": "hotel-castle-salam",
+      "pricePerNight": 4500
+    },
+    {
+      "destinationId": "khulna",
+      "tier": "premium",
+      "id": "hotel-royal-khulna",
+      "pricePerNight": 7500
+    },
+    {
+      "destinationId": "rajshahi",
+      "tier": "budget",
+      "id": "hotel-nice-rajshahi",
+      "pricePerNight": 1500
+    },
+    {
+      "destinationId": "rajshahi",
+      "tier": "mid-range",
+      "id": "parjatan-rajshahi",
+      "pricePerNight": 3500
+    },
+    {
+      "destinationId": "rajshahi",
+      "tier": "premium",
+      "id": "hotel-x-rajshahi",
+      "pricePerNight": 9000
+    },
+    {
+      "destinationId": "rangpur",
+      "tier": "budget",
+      "id": "parjatan-rangpur",
+      "pricePerNight": 1800
+    },
+    {
+      "destinationId": "rangpur",
+      "tier": "mid-range",
+      "id": "hotel-north-view",
+      "pricePerNight": 3500
+    },
+    {
+      "destinationId": "rangpur",
+      "tier": "premium",
+      "id": "grand-palace-rangpur",
+      "pricePerNight": 6500
+    },
+    {
+      "destinationId": "barishal",
+      "tier": "budget",
+      "id": "hotel-ali-barishal",
+      "pricePerNight": 1500
+    },
+    {
+      "destinationId": "barishal",
+      "tier": "mid-range",
+      "id": "hotel-athena-barishal",
+      "pricePerNight": 3500
+    },
+    {
+      "destinationId": "barishal",
+      "tier": "premium",
+      "id": "hotel-grand-park-barishal",
+      "pricePerNight": 7000
+    },
+    {
+      "destinationId": "cumilla",
+      "tier": "budget",
+      "id": "hotel-abedin-cumilla",
+      "pricePerNight": 1400
+    },
+    {
+      "destinationId": "cumilla",
+      "tier": "mid-range",
+      "id": "hotel-elite-cumilla",
+      "pricePerNight": 3500
+    },
+    {
+      "destinationId": "cumilla",
+      "tier": "premium",
+      "id": "kotbari-resort",
+      "pricePerNight": 6000
+    },
+    {
+      "destinationId": "mymensingh",
+      "tier": "budget",
+      "id": "hotel-mustafiz",
+      "pricePerNight": 1300
+    },
+    {
+      "destinationId": "mymensingh",
+      "tier": "mid-range",
+      "id": "hotel-amir-mymensingh",
+      "pricePerNight": 3000
+    },
+    {
+      "destinationId": "mymensingh",
+      "tier": "premium",
+      "id": "brahmaputra-river-resort",
+      "pricePerNight": 5500
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "tier": "budget",
+      "id": "coral-reef-guest-house",
+      "pricePerNight": 1800
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "tier": "mid-range",
+      "id": "ocean-paradise-hotel",
+      "pricePerNight": 6500
+    },
+    {
+      "destinationId": "coxs-bazar",
+      "tier": "premium",
+      "id": "sea-pearl-beach-resort",
+      "pricePerNight": 12000
+    },
+    {
+      "destinationId": "sajek-valley",
+      "tier": "budget",
+      "id": "ruilui-cottage",
+      "pricePerNight": 2000
+    },
+    {
+      "destinationId": "sajek-valley",
+      "tier": "mid-range",
+      "id": "megh-machang",
+      "pricePerNight": 4500
+    },
+    {
+      "destinationId": "sajek-valley",
+      "tier": "premium",
+      "id": "sajek-resort",
+      "pricePerNight": 12000
+    },
+    {
+      "destinationId": "sundarbans",
+      "tier": "budget",
+      "id": "parjatan-pashur",
+      "pricePerNight": 1800
+    },
+    {
+      "destinationId": "sundarbans",
+      "tier": "mid-range",
+      "id": "mongla-eco-resort",
+      "pricePerNight": 4000
+    },
+    {
+      "destinationId": "sundarbans",
+      "tier": "premium",
+      "id": "sundarbans-cruise-cabin",
+      "pricePerNight": 9000
+    }
+  ],
+  "roomsFor": [
+    {
+      "travelers": 1,
+      "rooms": 1
+    },
+    {
+      "travelers": 2,
+      "rooms": 1
+    },
+    {
+      "travelers": 3,
+      "rooms": 2
+    },
+    {
+      "travelers": 4,
+      "rooms": 2
+    },
+    {
+      "travelers": 5,
+      "rooms": 3
+    },
+    {
+      "travelers": 6,
+      "rooms": 3
+    },
+    {
+      "travelers": 7,
+      "rooms": 4
+    }
+  ],
+  "miscFor": [
+    {
+      "subtotal": 0,
+      "misc": 0
+    },
+    {
+      "subtotal": 999,
+      "misc": 49.95
+    },
+    {
+      "subtotal": 12345,
+      "misc": 617.25
+    },
+    {
+      "subtotal": 14427.5,
+      "misc": 721.375
+    }
+  ],
+  "interestWeights": [
+    {
+      "ranked": [
+        "beach"
+      ],
+      "weights": {
+        "beach": 1
+      }
+    },
+    {
+      "ranked": [
+        "beach",
+        "nature"
+      ],
+      "weights": {
+        "beach": 1,
+        "nature": 0.5
+      }
+    },
+    {
+      "ranked": [
+        "adventure",
+        "photography",
+        "food",
+        "beach"
+      ],
+      "weights": {
+        "adventure": 1,
+        "photography": 0.75,
+        "food": 0.5,
+        "beach": 0.25
+      }
+    },
+    {
+      "ranked": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "weights": {
+        "a": 1,
+        "b": 0.8571428571428571,
+        "c": 0.7142857142857143,
+        "d": 0.5714285714285714,
+        "e": 0.42857142857142855,
+        "f": 0.2857142857142857,
+        "g": 0.14285714285714285
+      }
+    }
+  ],
+  "contract": {
+    "okStatus": "ok",
+    "ok": {
+      "status": "string",
+      "trip": {
+        "id": "string",
+        "createdAt": "string",
+        "title": "string",
+        "from": "string",
+        "destinationName": "string",
+        "destinationId": "string",
+        "destinationImageKey": "string",
+        "days": "number",
+        "nights": "number",
+        "travelers": "number",
+        "startDate": "null",
+        "focusLabel": "string",
+        "budget": {
+          "total": "number",
+          "mode": "string",
+          "estimatedCost": "number",
+          "difference": "number",
+          "withinBudget": "boolean",
+          "allowedMaximum": "number",
+          "overage": "number",
+          "overagePercent": "number",
+          "breakdown": {
+            "transportation": "number",
+            "accommodation": "number",
+            "food": "number",
+            "activities": "number",
+            "localTransport": "number",
+            "miscellaneous": "number"
+          }
+        },
+        "adjustmentsMade": [
+          {}
+        ],
+        "activityCount": "number",
+        "reasons": [
+          "scalar"
+        ],
+        "transport": {
+          "outbound": {
+            "mode": "string",
+            "label": "string",
+            "durationMinutes": "number",
+            "farePerPerson": "number",
+            "groupFare": "number",
+            "distanceKm": "number"
+          },
+          "return": {
+            "mode": "string",
+            "label": "string",
+            "durationMinutes": "number",
+            "farePerPerson": "number",
+            "groupFare": "number",
+            "distanceKm": "number"
+          },
+          "alternatives": [
+            {
+              "mode": "string",
+              "label": "string",
+              "durationMinutes": "number",
+              "farePerPerson": "number"
+            }
+          ],
+          "local": {
+            "modes": [
+              {
+                "mode": "string",
+                "label": "string",
+                "farePerRide": "number"
+              }
+            ],
+            "totalFare": "number",
+            "note": "string"
+          },
+          "note": "null"
+        },
+        "stays": [
+          {
+            "id": "string",
+            "name": "string",
+            "priceTier": "string",
+            "pricePerNight": "number",
+            "highlight": "string",
+            "imageKey": "string"
+          }
+        ],
+        "restaurants": [
+          {
+            "id": "string",
+            "name": "string",
+            "cuisine": "string",
+            "highlight": "string",
+            "imageKey": "string"
+          }
+        ],
+        "itinerary": [
+          {
+            "day": "number",
+            "title": "string",
+            "estimatedCost": "number",
+            "items": [
+              {
+                "time": "number",
+                "title": "string",
+                "detail": "string",
+                "leg": {
+                  "label": "string",
+                  "durationMinutes": "number",
+                  "fare": "number"
+                },
+                "why": "string",
+                "imageGroup": "string",
+                "imageKey": "string"
+              }
+            ]
+          }
+        ],
+        "inputs": {
+          "startDate": "string",
+          "budgetMode": "string",
+          "budgetCovers": [
+            "scalar"
+          ],
+          "travelStyle": "string",
+          "transport": [
+            "scalar"
+          ],
+          "food": [
+            "scalar"
+          ],
+          "accommodation": "string",
+          "crowd": "string",
+          "notes": "string",
+          "from": "string",
+          "destination": "string",
+          "days": "number",
+          "nights": "number",
+          "travelers": "number",
+          "budget": "number",
+          "interests": [
+            "scalar"
+          ]
+        }
+      },
+      "budgetReport": {
+        "budget": "number",
+        "mode": "string",
+        "allowedMaximum": "number",
+        "totalCost": "number",
+        "minimumCost": "number",
+        "shortfall": "number",
+        "overage": "number",
+        "overagePercent": "number",
+        "overLimit": "number",
+        "breakdown": {
+          "transportation": "number",
+          "accommodation": "number",
+          "food": "number",
+          "activities": "number",
+          "localTransport": "number",
+          "miscellaneous": "number"
+        }
+      },
+      "adjustmentsMade": [
+        {}
+      ]
+    },
+    "infeasibleStatus": "infeasible",
+    "infeasible": {
+      "status": "string",
+      "trip": "null",
+      "budgetReport": {
+        "budget": "number",
+        "mode": "string",
+        "allowedMaximum": "number",
+        "totalCost": "number",
+        "minimumCost": "number",
+        "shortfall": "number",
+        "overage": "number",
+        "overagePercent": "number",
+        "overLimit": "number",
+        "breakdown": {
+          "transportation": "number",
+          "accommodation": "number",
+          "food": "number",
+          "activities": "number",
+          "localTransport": "number",
+          "miscellaneous": "number"
+        }
+      },
+      "adjustmentsMade": [
+        "scalar"
+      ]
+    }
+  }
+}

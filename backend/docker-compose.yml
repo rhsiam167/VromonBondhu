@@ -1,0 +1,23 @@
+# PostgreSQL for local development.
+# Start:  docker compose up -d        Stop:  docker compose down
+# The user/password/database match DATABASE_URL in .env.example.
+services:
+  db:
+    image: postgres:16
+    container_name: vromon-bondhu-db
+    environment:
+      POSTGRES_USER: vromon
+      POSTGRES_PASSWORD: vromon_dev_password
+      POSTGRES_DB: vromon_bondhu
+    ports:
+      - "5432:5432"
+    volumes:
+      - vromon_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vromon -d vromon_bondhu"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  vromon_pgdata:
