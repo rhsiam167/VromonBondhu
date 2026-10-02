@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.log
+
+# Local settings (copy from .env.example)
+.env
+.env.local
+
+# Backups of old images (not used by the app)
+image-originals/
